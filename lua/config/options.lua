@@ -4,3 +4,5 @@
 
 vim.opt.relativenumber = false
 vim.opt.colorcolumn = "80"
+vim.bo.indentexpr = nil
+vim.bo.indentkeys = ""
