@@ -23,6 +23,16 @@ return {
     ---@type snacks.Config
     opts = {
       dashboard = dashboard,
+      picker = {
+        sources = {
+          explorer = {
+            -- show hidden files like .env
+            hidden = true,
+            -- show files ignored by git like node_modules
+            ignored = true,
+          },
+        },
+      },
     },
   },
 }
