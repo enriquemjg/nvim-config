@@ -6,7 +6,7 @@ local dashboard = {
     { section = "startup" },
     {
       section = "terminal",
-      cmd = "cat ~/.config/nvim/splash-screens/blastoise.txt",
+      cmd = "cat ~/.config/nvim/splash-screens/pikachu.txt",
       random = 7,
       pane = 2,
       height = 30,
