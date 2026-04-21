@@ -8,3 +8,8 @@ vim.bo.indentexpr = nil
 vim.bo.indentkeys = ""
 vim.o.autoread = true
 vim.opt.spelllang = { "en", "es" }
+
+vim.opt_local.conceallevel = 0
+
+-- enable local config (.nvim.lua, .nvimrc, .exrc)
+-- vim.opt.exrc = true
